@@ -112,15 +112,28 @@
 
 // here we define the outputEl. We make the var = to the output-text ID that I created in the HTML
 
-let outputEl1 = document.getElementById("output-left")
-let outputEl2 = document.getElementById("output-right")
+
+// _____________________________________________________________________
 
 
-// We are defining 'fieldEl' by capturing a section of our HTML by its ID, in this case its the message ID.
-let fieldEl2 = document.getElementById("message")
-// Next we add an eventlistener to the fieldEL2. This 
-fieldEl2.addEventListener("keyup", function () {
-    outputEl1.innerHTML = event.target.value
+// // ************   MY WORK FOR MIRROR MIRROR PRACTICE   **************
 
-    outputEl2.innerHTML = event.target.value
-})
+
+// let outputEl1 = document.getElementById("output-left")
+// let outputEl2 = document.getElementById("output-right")
+
+
+// // We are defining 'fieldEl' by capturing a section of our HTML by its ID, in this case its the message ID.
+// let fieldEl2 = document.getElementById("message")
+// // Next we add an eventlistener to the fieldEL2. This 
+// fieldEl2.addEventListener("keyup", function () {
+//     outputEl1.innerHTML = event.target.value
+
+//     outputEl2.innerHTML = event.target.value
+// })
+
+// // _____________________________________________________________________
+
+
+// ************   MY WORK FOR Scrolling and Scaling   **************
+
