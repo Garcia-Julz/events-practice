@@ -125,8 +125,10 @@
 
 // // We are defining 'fieldEl' by capturing a section of our HTML by its ID, in this case its the message ID.
 // let fieldEl2 = document.getElementById("message")
+
 // // Next we add an eventlistener to the fieldEL2. This 
 // fieldEl2.addEventListener("keyup", function () {
+
 //     outputEl1.innerHTML = event.target.value
 
 //     outputEl2.innerHTML = event.target.value
@@ -137,3 +139,21 @@
 
 // ************   MY WORK FOR Scrolling and Scaling   **************
 
+const audrey = document.getElementById("audrey")
+
+/*
+    Add an event listener to the `document` object to listen
+    for the "scroll" event.
+*/
+document.addEventListener("scroll", function () {
+    /*
+        Adjust the width of audrey to be 1/3 the value of
+        `window.scrollY`. No lower than 50px, though.
+    */
+    audrey.style.width = window.scrollY/3 + "px";
+    audrey.style.height = window.scrollY/4 + "px";
+    /*
+        Adjust the height of audrey to be 1/4 the value of
+        `window.scrollY`. No lower than 100px, though.
+    */
+})
